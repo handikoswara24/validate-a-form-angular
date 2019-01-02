@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    background: #2E9EFF;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#top {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+form {
+    background: white;
+    width: 400px;
+    height: 250px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+#judul {
+    font-size: 18px;
+    color: rgb(12, 87, 33);
+    top: 100px;
+    display: block;
+    text-align: center;
+}
+
+.input {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: left;
+    background: #f6f6f6;
+    border: 0;
+}
+
+i {
+    color: blue;
+    font-weight: bold;
+}
+
+.valid {
+    float: right;
+    font-weight: normal;
+    margin-right: 5%;
+    color: red;
+}
+
+#ceksbox {
+    margin-left: 10px;
+}
+
+#sp {
+    font-weight: normal;
+    color: green;
+}
+
+#reset {
+    margin-top: 10px;
+    margin-left: 5%;
+    padding: 10px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-sizing: border-box;
+    width: 45%;
+}
+
+#submit {
+    float: right;
+    margin-top: 10px;
+    margin-right: 5%;
+    width: 45%;
+    border: 2px solid white;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #2e9eff;
+}
+
+#submit:hover {
+    border: 2px blue solid;
+}
+
+#reset:hover {
+    border: 2px orange solid;
+}

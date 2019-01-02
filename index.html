@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app='validasi'>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Belajar Angular</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="angular.min.js"></script>
+    <script src="script3.js"></script>
+</head>
+
+<body ng-controller="cl">
+    <b id="top">BUAT AKUN BARU</b>
+    <form method="POST">
+        <b id="judul">FORMULIR REGISTER</b>
+        <input class="input" type="email" placeholder="ex: user@prof.com">
+        <input class="input" type="{{tampil}}" ng-model="pas" ng-change="cekpanjang()" placeholder="ketikan password">
+        <i>{{cek1}}</i>
+        <b class="valid">{{panjang}}</b>
+        <input class="input" type="{{tampil}}" ng-model="pass" ng-change="cek()" placeholder="ketik ulang password">
+        <i>{{cek2}}</i>
+        <b class="valid">{{sama}}</b>
+        <br>
+        <input id="ceksbox" type="checkbox" ng-model="tampil" ng-true-value='text' ng-false-value='password'>
+        <b id="sp">show password</b><br>
+        <input id="reset" type="reset" value="RESET">
+        <input id="submit" type="submit" value="BUAT AKUN">
+    </form>
+</body>
